@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    color: #fcf8ec;
+    font-size: 1.2rem;
+}
+
+.left-menu{
+    width: 20vw;
+    height: 100vh;
+    background-color: #d0e8f2;
+    position: absolute;
+    top: 0;
+    left: -15vw;
+    transition: left 0.5s;
+    text-align: center;
+}
+
+.left-menu:hover{
+    left: 0;
+}
+
+.left-menu .title{
+    position: relative;
+    background-color: #79a3b1;
+    padding: 0.3rem;
+}
+
+.left-menu .title i{
+    position: absolute;
+    right: 0.5rem;
+    transition: transform 1s;
+}
+
+.left-menu:hover i{
+    transform: rotate(180deg);
+}
+
+.left-menu ul{
+    margin: 0;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+.left-menu ul a{
+    display: block;
+    text-decoration: none;
+    color: #456268;
+    padding: 0.7rem;
+}

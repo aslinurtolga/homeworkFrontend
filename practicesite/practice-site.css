@@ -41,6 +41,10 @@ nav.nav-top img{
     color: black;
 }
 
+a{
+    transition: 10ms;
+}
+
 /** NAV-MAIN */
 
 .nav-main{
