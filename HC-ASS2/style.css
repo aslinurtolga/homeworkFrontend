@@ -73,6 +73,7 @@
 .menu{
 background-color: #734444;
 padding: 1rem;
+
 }
 
 .banner{
@@ -85,7 +86,7 @@ padding: 1rem;
 .bolum3{
     height: calc(100vh - 330px);
     background-color: #eeedbe;
-    border: 2px dashed #5357a6;
+    border: 2px solid rgb(141, 119, 92);
 }
 
 .bolum4,
@@ -93,10 +94,11 @@ padding: 1rem;
 .bolum6{
     padding: 1rem;
     background-color: #99b27f ;
-    border: 2px dashed #b31e6f;
+    border: 2px solid rgb(141, 119, 92);
 }
 
 footer{
     padding: 2rem;
     background-color:#562d7d;
+    
 }
