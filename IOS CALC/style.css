@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    color: white;
+    gap: 1rem;
+    padding: 150px;
+    width: 420px;
+    border-radius: 2.5rem;
+    position: relative;
+    padding-left: 35px;
+    padding-bottom: 45px;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.opt{
+    background-color: rgb(228, 165, 81);
+    color: white;
+}
+
+.num{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.dot{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.dark-zero{
+    /* columnlar birleşmiyor*/
+    grid-column: 1 / span 3;
+    border-radius: 5rem; 
+    padding-inline-end: 2rem;
+    align-self: end;
+
+}
